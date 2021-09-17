@@ -19,11 +19,11 @@ class Author
         title: title,
         publication_date: date
         })
-    @books << book
-    book
+
     # require "pry"; binding.pry
   end
   def publish(book)
-
+    @books << book
+    book
   end
 end

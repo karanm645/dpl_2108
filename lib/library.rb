@@ -11,10 +11,6 @@ class Library
 
   def add_author(author)
     @authors << author
-    added_books(author)
-  end
-
-  def added_books(author)
     @books += author.books
   end
 end
